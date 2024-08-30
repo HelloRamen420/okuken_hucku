@@ -88,6 +88,7 @@ public class HomeController{
         } while (shopsNode != null);
         //都道府県のコードをとる
         String prefe = shopsNode.get("code").asText();
+        
         return prefe;
 
     }
